@@ -8,41 +8,21 @@
   <head>
     <title>mobile-web.dev (@mobile_web.dev)</title>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-    <amp-analytics type="gtag" data-credentials="include">
-      <script type="application/json">
-        {
-          "vars": {
-            "gtag_id": "UA-157600355-1",
-            "config": {
-              "YOUR_GOOGLE_ANALYTICS_ID": {
-                "groups": "default"
-              }
-            }
-          },
-          "triggers": {
-            "storyProgress": {
-              "on": "story-page-visible",
-              "vars": {
-                "event_name": "custom",
-                "event_action": "story_progress",
-                "event_category": "middle",
-                "event_label": "middle",
-                "send_to": ["UA-157600355-1"]
-              }
+      <amp-analytics type="googleanalytics">
+        <script type="application/json">
+          {
+            "vars": {
+              "account": "UA-157600355-1"
             },
-            "storyEnd": {
-              "on": "story-last-page-visible",
-              "vars": {
-                "event_name": "custom",
-                "event_action": "story_complete",
-                "event_category": "end",
-                "send_to": ["UA-157600355-1"]
+            "triggers": {
+              "default pageview": {
+                "on": "visible",
+                "request": "pageview"
               }
             }
           }
-        }
-      </script>
-    </amp-analytics>
+        </script>
+      </amp-analytics>
     <meta data-n-head="ssr" charset="utf-8" />
     <link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
     <link rel="canonical" href="/">
