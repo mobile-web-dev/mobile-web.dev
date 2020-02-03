@@ -2254,7 +2254,21 @@
           </div>
         </amp-story-page-attachment>
       </amp-story-page>
-
+      <amp-analytics type="googleanalytics">
+        <script type="application/json">
+          {
+            "vars": {
+              "account": "UA-157600355-1"
+            },
+            "triggers": {
+              "default pageview": {
+                "on": "visible",
+                "request": "pageview"
+              }
+            }
+          }
+        </script>
+      </amp-analytics>
 
       <amp-story-bookend layout="nodisplay">
         <script type="application/json">
@@ -2290,21 +2304,7 @@
           }
         </script>
       </amp-story-bookend>
-      <amp-analytics type="googleanalytics">
-        <script type="application/json">
-          {
-            "vars": {
-              "account": "UA-157600355-1"
-            },
-            "triggers": {
-              "default pageview": {
-                "on": "visible",
-                "request": "pageview"
-              }
-            }
-          }
-        </script>
-      </amp-analytics>
+
     </amp-story>
   </body>
 </html>
