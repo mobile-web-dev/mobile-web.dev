@@ -8,21 +8,7 @@
   <head>
     <title>mobile-web.dev (@mobile_web.dev)</title>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-      <amp-analytics type="googleanalytics">
-        <script type="application/json">
-          {
-            "vars": {
-              "account": "UA-157600355-1"
-            },
-            "triggers": {
-              "default pageview": {
-                "on": "visible",
-                "request": "pageview"
-              }
-            }
-          }
-        </script>
-      </amp-analytics>
+
     <meta data-n-head="ssr" charset="utf-8" />
     <link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
     <link rel="canonical" href="/">
@@ -2304,6 +2290,21 @@
           }
         </script>
       </amp-story-bookend>
+      <amp-analytics type="googleanalytics">
+        <script type="application/json">
+          {
+            "vars": {
+              "account": "UA-157600355-1"
+            },
+            "triggers": {
+              "default pageview": {
+                "on": "visible",
+                "request": "pageview"
+              }
+            }
+          }
+        </script>
+      </amp-analytics>
     </amp-story>
   </body>
 </html>
