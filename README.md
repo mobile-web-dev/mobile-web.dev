@@ -41,7 +41,7 @@
 ## Contact us
 ![](assets/mobile-web_2.png)
 
-|[Github](https://github.com/mobile-web-dev)| [Youtube](https://www.youtube.com/channel/UCSQKDMqwOp43dEqDt2hBOIQ/featured) | [Instagram](https://www.instagram.com/mobile_web.dev/) | [Twitter](https://twitter.com/mobile_web_hq) | [Linkedin](https://www.linkedin.com/company/mobile-web-dev/) | [Facebook](https://www.facebook.com/MobWeb.dev/) | [Slack](https://mobile-web.dev/slack/) |
-| - | - | - | - | - | - | - |
+|[Github](https://github.com/mobile-web-dev)| [Youtube](https://www.youtube.com/channel/UCSQKDMqwOp43dEqDt2hBOIQ/featured) | [Instagram](https://www.instagram.com/mobile_web.dev/) | [Twitter](https://twitter.com/mobile_web_hq) | [Linkedin](https://www.linkedin.com/company/mobile-web-dev/) | [Facebook](https://www.facebook.com/MobWeb.dev/) | [Slack](https://mobile-web.dev/slack/) | [Meetup](https://www.meetup.com/mobile-web-dev/) |
+| - | - | - | - | - | - | - | - |
 
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/AnjaliSharma1234/)
