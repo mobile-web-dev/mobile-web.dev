@@ -1240,6 +1240,17 @@
       .button2:hover {
         box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
       }
+      .course_button {
+        background-color: #286473;
+        color: white;
+        padding: 10px 18px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 1px 1px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
     </style>
     <style amp-boilerplate>
       body {
@@ -1614,7 +1625,7 @@
         </footer>
       </amp-sidebar>
 
-      <!-- First slide -->
+      <!-- 1st slide -->
       <amp-story-page id="cover-mobile_web.dev">
         <amp-story-grid-layer template="fill">
           <amp-img
@@ -1695,7 +1706,7 @@
         </amp-story-grid-layer>
       </amp-story-page>
         
-      <!-- New slide for enroll page-->
+      <!-- 2nd slide-->
       <amp-story-page id="course-bio">
         <amp-story-grid-layer template="vertical" class="bg-white">
           <amp-img
@@ -1768,9 +1779,100 @@
           </div>
         </amp-story-cta-layer>
       </amp-story-page>
+
+
+
+      <!-- 3rd slide-->
+      <amp-story-page id="course-bio">
+        <amp-story-grid-layer template="vertical" class="bg-white">
+          <amp-img
+                  src="./assets/slide-1.jpg"
+                  layout="responsive"
+                  alt="alt"
+                  width="1"
+                  height="1"
+                  class="avatar-bg-filter"
+          ></amp-img>
+
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <amp-fit-text
+                  layout="responsive"
+                  width="2"
+                  height="2.8"
+                  min-font-size="14"
+                  max-font-size="28"
+                  style="color: #083859; font-weight: 600;">
+            Checkout all the available sessions<br><br><br>
+              <a href="https://www.youtube.com/playlist?list=PL6IEQd6VwYfh4X_QWdmpd6xMRH9jnILyT"
+                 class="course_button">
+                Wordpress Crash Course
+              </a>
+              <a href="https://www.youtube.com/playlist?list=PL6IEQd6VwYfiel0OdURL3vdq8hDA1oocC"
+                 class="course_button">
+                Web Hosting & Cloud Crash Course
+              </a>
+              <a href="https://www.youtube.com/playlist?list=PL6IEQd6VwYfiBodbH-UaouTL2vxYi0vPJ"
+                 class="course_button">
+                React JS Crash Course
+              </a>
+              <a href="https://www.youtube.com/playlist?list=PL6IEQd6VwYfinv_FNMdThyUx7D_d30Z60"
+                 class="course_button">
+                AMP Crash Course
+              </a>
+            <a href="https://youtu.be/nNAmEMi3MAs"
+               class="course_button">
+              Pie & AI Webinar
+            </a>
+
+
+          </amp-fit-text>
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="thirds">
+          <div grid-area="upper-third" class="grid">
+            <amp-img
+                    src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjU1LjIgMjU1LjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTEyNy42IDBhMTIzLjcgMTIzLjcgMCAwIDEgNjMuOCAxNy4yNCAxMjguOTMgMTI4LjkzIDAgMCAxIDQ2LjYgNDYuNTYgMTIzLjcgMTIzLjcgMCAwIDEgMTcuMjQgNjMuOCAxMjMuNyAxMjMuNyAwIDAgMSAtMTcuMjQgNjMuOCAxMjguOTMgMTI4LjkzIDAgMCAxIC00Ni42IDQ2LjYgMTIzLjcgMTIzLjcgMCAwIDEgLTYzLjggMTcuMjQgMTIzLjcgMTIzLjcgMCAwIDEgLTYzLjgtMTcuMjQgMTI4LjkzIDEyOC45MyAwIDAgMSAtNDYuNTYtNDYuNiAxMjMuNyAxMjMuNyAwIDAgMSAtMTcuMjQtNjMuOCAxMjMuNyAxMjMuNyAwIDAgMSAxNy4yNC02My44IDEyOC45MyAxMjguOTMgMCAwIDEgNDYuNTYtNDYuNTYgMTIzLjcgMTIzLjcgMCAwIDEgNjMuOC0xNy4yNHptNTkuNjggMTQwYTEyLjU0IDEyLjU0IDAgMCAwIDAtMjEuNjFsLTkwLjU1LTU1LjExYTExLjQ5IDExLjQ5IDAgMCAwIC0xMi4zNSAwIDExLjc0IDExLjc0IDAgMCAwIC02LjE3IDEwLjgxdjEwN2ExMS43MSAxMS43MSAwIDAgMCA2LjE3IDEwLjggMTEuNDkgMTEuNDkgMCAwIDAgMTIuMzUgMHoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="
+                    alt="alt"
+                    width="30"
+                    height="30"
+                    class="tap-play"
+            ></amp-img>
+          </div>
+
+        </amp-story-grid-layer>
+
+        <amp-story-cta-layer data-v-2538aab6>
+          <div class="grid-cta" data-v-2538aab6>
+            <div
+                    role="button"
+                    aria-label="Toggle story menu"
+                    on="tap:sidebar.toggle"
+                    tabindex="0"
+                    class="grid-cta-a"
+                    data-v-2538aab6
+            >
+              <svg
+                      width="24"
+                      height="18"
+                      enable-background="new 0 0 40 40"
+                      viewBox="0 0 40 40"
+                      xmlns="http://www.w3.org/2000/svg"
+                      data-v-2538aab6
+              >
+                <g fill="#fff" data-v-2538aab6>
+                  <path d="m1.4 3.2h37.2v7.2h-37.2z" data-v-2538aab6></path>
+                  <path d="m1.4 16.4h37.2v7.2h-37.2z" data-v-2538aab6></path>
+                  <path d="m1.4 29.6h37.2v7.2h-37.2z" data-v-2538aab6></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </amp-story-cta-layer>
+      </amp-story-page>
         
 
-      <!-- Second slide -->
+      <!-- 4th slide -->
       <amp-story-page id="page-bio">
         <amp-story-grid-layer template="vertical" class="bg-white">
           <amp-img
@@ -1879,7 +1981,8 @@
         </amp-story-cta-layer>
       </amp-story-page>
 
-      <!-- Third slide -->
+
+      <!-- 5 slide -->
       <amp-story-page id="sidecar-B8EPIvzHOaD">
         <amp-story-grid-layer template="fill">
           <amp-img
@@ -1953,7 +2056,7 @@
         </amp-story-page-attachment>
       </amp-story-page>
 
-      <!-- Forth slide -->
+      <!-- 5 slide -->
       <amp-story-page id="p-B8EO6sInXmr">
         <amp-story-grid-layer template="fill" class="grid-bg">
           <amp-img
@@ -2003,7 +2106,7 @@
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <!-- Fifth slide -->
+      <!-- 6 slide -->
       <amp-story-page id="p-B8EO0k_HQWL">
         <amp-story-grid-layer template="fill" class="grid-bg">
           <amp-img
@@ -2053,7 +2156,7 @@
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <!-- Sixth Slide -->
+      <!-- 7 Slide -->
       <amp-story-page id="p-B8EOw6sneYR">
         <amp-story-grid-layer template="fill" class="grid-bg">
           <amp-img
@@ -2103,7 +2206,7 @@
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <!-- Seventh slide -->
+      <!-- 8 slide -->
       <amp-story-page id="p-B8EOu0gnpIQ">
         <amp-story-grid-layer template="fill" class="grid-bg">
           <amp-img
@@ -2153,7 +2256,7 @@
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <!-- eighted slide -->
+      <!-- 9 slide -->
       <amp-story-page id="p-B8EOr-6Htol">
         <amp-story-grid-layer template="fill" class="grid-bg">
           <amp-img
@@ -2203,7 +2306,7 @@
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <!-- nineth slide -->
+      <!-- 10slide -->
       <amp-story-page id="p-B8EOpjlnNoB">
         <amp-story-grid-layer template="fill" class="grid-bg">
           <amp-img
@@ -2253,7 +2356,7 @@
         </amp-story-grid-layer>
       </amp-story-page>
 
-      <!-- 10th slide -->
+      <!-- 11th slide -->
       <amp-story-page id="p-B8EOnQSHi-8">
         <amp-story-grid-layer template="fill" class="grid-bg">
           <amp-img
@@ -2315,7 +2418,7 @@
         </amp-story-page-attachment>
       </amp-story-page>
 
-      <!-- 11th slide -->
+      <!-- 12th slide -->
       <amp-story-page id="p-B8EOiwCnEJC">
         <amp-story-grid-layer template="fill" class="grid-bg">
           <amp-img
